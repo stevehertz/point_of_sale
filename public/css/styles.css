@@ -1,0 +1,175 @@
+#operatorSec {
+  display: none;
+}
+
+#operationValueSec {
+  display: none;
+}
+
+#salePurchaseUnitRow {
+  display: none;
+}
+
+.posProducts {
+  margin-bottom: 20%;
+}
+
+.posGrandTotal {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.posReset {
+  font-size: 20px;
+  border-radius: 50px;
+}
+
+.posSave {
+  font-size: 20px;
+  border-radius: 50px;
+}
+
+.receipt-container {
+  font-family: "VT323", monospace;
+  box-sizing: border-box;
+  color: #1f1f1f;
+  background: #f1f1f1;
+  padding: 20px 10px;
+}
+.receipt-container .bold {
+  font-weight: bold;
+}
+.receipt-container .center {
+  text-align: center;
+}
+.receipt-container .receipt {
+  width: 300px;
+  min-height: 100vh;
+  height: 100%;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 5px 5px 19px #ccc;
+  padding: 10px;
+}
+.receipt-container .logo {
+  text-align: center;
+  padding: 20px;
+}
+.receipt-container .logo img {
+  border-radius: 50%;
+  max-width: 100%;
+}
+.receipt-container .address {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.receipt-container .transactionDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px 10px;
+}
+.receipt-container .transactionDetails .detail {
+  text-transform: uppercase;
+}
+.receipt-container .centerItem {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.receipt-container .survey {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.receipt-container .survey .surveyID {
+  font-size: 20px;
+}
+.receipt-container .paymentDetails {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 150px;
+}
+.receipt-container .creditDetails {
+  margin: 10px auto;
+  width: 230px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.receipt-container .receiptBarcode {
+  margin: 10px 0;
+  text-align: center;
+}
+.receipt-container .returnPolicy {
+  margin: 10px 20px;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+.receipt-container .coupons {
+  margin-top: 20px;
+}
+.receipt-container .tripSummary {
+  margin: auto;
+  width: 255px;
+}
+.receipt-container .tripSummary .item {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 220px;
+}
+.receipt-container .feedback {
+  margin: 20px auto;
+}
+.receipt-container .feedback h3.clickBait {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+.receipt-container .feedback h4.web {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+.receipt-container .feedback .break {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.receipt-container .couponContainer {
+  border-top: 1px dashed #1f1f1f;
+  margin-bottom: 20px;
+}
+.receipt-container .couponContainer .discount {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.receipt-container .couponContainer .discountDetails {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.receipt-container .couponContainer .barcode {
+  margin: 10px 0 0;
+}
+.receipt-container .couponContainer .legal {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+.receipt-container .couponContainer .barcodeID {
+  margin-bottom: 8px;
+}
+.receipt-container .couponContainer .expiration {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.receipt-container .couponContainer .couponBottom {
+  font-size: 13px;
+  text-align: center;
+}

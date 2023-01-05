@@ -1,0 +1,11 @@
+Synthesizing 5/10 solutions (Duplicates hidden)
+
+=======
+
+        $customer->email = $data['email'];
+
+        $customer->save();
+
+        $response['status'] = true;
+        $response['message'] = 'Customer created successfully';
+        return response()->json($response);
